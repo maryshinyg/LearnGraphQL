@@ -5,6 +5,6 @@ namespace GettingStarted.Types;
 [QueryType]
 public static partial class Query
 {
-    public static Book GetBook()
+    public static Book GetBook()//resolver 
         => new Book("C# in depth.", new Author("Jon Skeet"));
 }
